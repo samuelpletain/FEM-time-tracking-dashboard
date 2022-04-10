@@ -49,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-This project made me dive deep into grid layour and grid-template-areas. I alos got to get more confortable with Vue3 and Vite.
+This project made me dive deep into grid layour and grid-template-areas. I also got to get more confortable with Vue3 and Vite.
 
 ## Author
 
