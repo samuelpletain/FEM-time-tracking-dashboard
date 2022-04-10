@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="tracker">
+  <main class="tracker">
     <div class="tracker__user-pannel user-pannel">
       <div class="user-pannel__user-info user-info">
         <img src="@/assets/image-jeremy.png" alt="Portrait of Jeremy Robson" class="user-info__avatar">      
@@ -38,7 +38,7 @@ onMounted(() => {
       </ul>
     </div>
     <Card v-for="item in data" :title="item.title" :current-hours="item.timeframes[amount].current" :past-hours="item.timeframes[amount].previous" :image="item.image" :key="item.title" :class="item.image"></Card>
-  </div>
+  </main>
 </template>
 
 <style lang="scss" scoped>

@@ -7,15 +7,13 @@
     currentHours: Number,
     pastHours: Number
   })
-
-  function test() {
-    $refs.addClass('test')
-  }
 </script>
 
 <template>
   <div class="wrap">
-    <img class="dots" src="@/assets/icon-ellipsis.svg" alt="Ellipsis icon" :hover="test">
+    <div class="dots">
+      <img src="@/assets/icon-ellipsis.svg" alt="Ellipsis icon">
+    </div>
     <div class="card">
       <h2 class="card__title">{{ title }}</h2>
       <p class="card__currentHours">{{ currentHours }}hrs</p>
@@ -95,7 +93,7 @@
 
 .dots {
   position: absolute;
-  top: 4.35rem;
+  top: 3.5rem;
   z-index: 3;
   right: 1.5rem;
   &:hover {
